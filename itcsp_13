@@ -1,0 +1,15 @@
+print("please enter 3 numbers \n " )
+a = int(input("first number : "))
+b = int(input("\n second number :  "))
+c = int(input("\n  third number : "))
+
+
+
+if(b<a and b <c):
+    least = b
+elif(a<b and a < c):
+    least= a
+else:
+    least = c
+
+print(least)

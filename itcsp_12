@@ -1,0 +1,9 @@
+x = int(input("please enter a number"))
+if((x % 2 ==0) and (x % 3 == 0)):
+    print("divisible with 2 and 3")
+elif((x % 2 ==0) and (x % 3 != 0)):
+    print("divisible by 2 but not by 3")
+elif((x % 2 != 0) and (x % 3 == 0)):
+    print("divisible by 3 but not by 2")
+else:
+    print("not divisible")
