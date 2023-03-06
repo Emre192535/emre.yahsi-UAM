@@ -40,4 +40,5 @@ to participate in the AI-driven economy. In conclusion, AI is a rapidly evolving
 its development and deployment with caution and responsibility.
 '''
 
-print(map_longest(text))
+result = map_longest(text)
+print(f"The longest word in the text is '{result[0]}' with the length of {result[1]} characters.")
